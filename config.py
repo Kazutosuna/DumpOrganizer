@@ -8,9 +8,11 @@ from datetime import datetime
 # Supported file extensions
 SUPPORTED_EXTENSIONS = {
     'images': ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.tif', '.webp', '.heic'],
-    'videos': ['.mp4', '.avi', '.mov', '.wmv', '.flv', '.mkv', '.m4v', '.mpg', '.mpeg', '.3gp']
+    'videos': [
+        '.mp4', '.avi', '.mov', '.wmv', '.flv', '.mkv', '.m4v', '.mpg', '.mpeg', '.3gp',
+        '.webm', '.mts', '.m2ts', '.ogv', '.asf', '.vob', '.dat', '.f4v'
+    ]
 }
-
 # Month names in different languages
 MONTH_NAMES = {
     'english': [
